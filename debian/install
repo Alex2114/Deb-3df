@@ -1,0 +1,3 @@
+configs/* etc/redeem/
+data/* /etc/redeem/
+systemd/redeem.service lib/systemd/system/
