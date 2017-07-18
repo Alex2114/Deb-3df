@@ -11,12 +11,12 @@ Preferred software features:
 ## Complete Debian based eMMC flasher image for Chip Pro on SinapTec board (WIP)
 // Most users should probably not use the [Kamikaze CNC 
 // image](http://wiki.thing-printer.com/index.php? 
-// title=Kamikaze), it is a complete BeagleBone eMMC flasher  ### image that comes with Redeem for Beaglebone. 
+// title=Kamikaze), it is a complete BeagleBone eMMC flasher image that comes with Redeem for Beaglebone. 
 
-// This indicates code or process specific to the BeagleBone ### and Replicape hardware, it is likely obsolete on other 
+// This indicates code or process specific to the BeagleBone and Replicape hardware, it is likely obsolete on other 
 // hardware
  
-## Debain package for Chip Pro on SinapTec board (WIP)
+## Debian package for Chip Pro on SinapTec board (WIP)
 
 ## Installation from source for Chip Pro on SinapTec board (WIP), see below
 
