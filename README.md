@@ -9,21 +9,21 @@ Preferred software features:
 
 # Installation:
 ## Complete Debian based eMMC flasher image for Chip Pro on SinapTec board (WIP)
-### Most users should probably not use the [Kamikaze CNC 
-### image](http://wiki.thing-printer.com/index.php? 
-### title=Kamikaze), it is a complete BeagleBone eMMC flasher  ### image that comes with Redeem for Beaglebone. 
+// Most users should probably not use the [Kamikaze CNC 
+// image](http://wiki.thing-printer.com/index.php? 
+// title=Kamikaze), it is a complete BeagleBone eMMC flasher  ### image that comes with Redeem for Beaglebone. 
 
-### This indicates code or process specific to the BeagleBone ### and Replicape hardware, it is likely obsolete on other 
-### hardware
+// This indicates code or process specific to the BeagleBone ### and Replicape hardware, it is likely obsolete on other 
+// hardware
  
 ## Debain package for Chip Pro on SinapTec board (WIP)
 
 ## Installation from source for Chip Pro on SinapTec board (WIP), see below
 
 ## Requirements
-### These instructions assumes you have a kernel with a 
-### Beaglebone cape manager, 
-Linux kernel >4.
+// These instructions assumes you have a kernel with a 
+// Beaglebone cape manager 
+Linux kernel >4
 
 # Installation
 
@@ -124,28 +124,28 @@ Mathieu Monney
 Daryl Bond
 
 # Generic armhf port
-Alex Tao, Tao Submarines and Systems, Chios, Aegean Sea, Medfiterra
+Alex Tao, Tao Submarines and Systems, Chios, Aegean Sea, Mediterra
 
 
 # Install Redeem on Debian 8.3 on Beaglebone and Chip Pro (getchip.com) for SinapTec board (http://reprap.org/wiki/SinapTec) (WIP)
-###  - Disable universal cape manager in Beaglebone hardware
-###  nano /boot/uEnv.txt
-### delete cape_universal=enable
-### - Download and install Replicape firmware on Beaglebone 
-###  - Hardware
-###     git clone https://github.com/eliasbakken/bb.org-
-### overlays
-###     cd bb.org-overlays/
-###     ./dtc-overlay.sh
-###     ./install.sh
+//  - Disable universal cape manager in Beaglebone hardware
+//  nano /boot/uEnv.txt
+// delete cape_universal=enable
+// - Download and install Replicape firmware on Beaglebone 
+//  - Hardware
+//     git clone https://github.com/eliasbakken/bb.org-
+// overlays
+//     cd bb.org-overlays/
+//     ./dtc-overlay.sh
+//     ./install.sh
 
  - Manual installation of redeem from feed
  - Disable logging to file
     nano /etc/redeem/local.cfg
 
-###  - Disable loading overlays in Beaglebone hardware
-###    nano /opt/source/adafruit-beaglebone-io-    
-###   python/source/spimodule.c
+//  - Disable loading overlays in Beaglebone hardware
+//    nano /opt/source/adafruit-beaglebone-io-    
+//   python/source/spimodule.c
  - Install socat
  - Install octoprint
  - Install python-octoprint-redeem
